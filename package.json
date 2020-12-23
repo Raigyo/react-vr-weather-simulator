@@ -7,6 +7,7 @@
     "start": "node -e \"console.log('open browser at http://localhost:8081/vr/\\n\\n');\" && node node_modules/react-native/local-cli/cli.js start",
     "bundle": "node node_modules/react-vr/scripts/bundle.js && sh node_modules/react-vr/scripts/copy_assets.sh",
     "deploy": "node node_modules/react-vr/scripts/deploy.js",
+    "deploy-gh": "gh-pages -d vr",
     "open": "node -e \"require('xopen')('http://localhost:8081/vr/')\"",
     "devtools": "react-devtools",
     "test": "jest"
